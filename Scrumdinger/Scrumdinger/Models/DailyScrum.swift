@@ -12,7 +12,7 @@ struct DailyScrum: Identifiable {
     let id: UUID //hashable protocol 채택
     
     let title: String
-    let attendees: [String]
+    let attendees: [Attendee]
     let lengthInMinutes: Int
     let theme: Theme
     
@@ -21,9 +21,21 @@ struct DailyScrum: Identifiable {
     init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, theme: Theme) {
         self.id = id
         self.title = title
-        self.attendees = attendees
+        self.attendees = attendees.map { Attendee(name: $0) }
         self.lengthInMinutes = lengthInMinutes
         self.theme = theme
+    }
+}
+
+extension DailyScrum {
+    struct Attendee: Identifiable {
+        let id: UUID
+        var name: String
+        
+        init(id: UUID = UUID(), name: String) {
+            self.id = id
+            self.name = name
+        }
     }
 }
 

@@ -7,34 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D145CF12A38699B00D06D85 /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D145CF02A38699B00D06D85 /* ScrumsView.swift */; };
-		3D75F78B2A441636000A0AAE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75F78A2A441636000A0AAE /* DetailView.swift */; };
-		99C9C76A2A319CA200A6370F /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C9C7692A319CA200A6370F /* ScrumdingerApp.swift */; };
-		99C9C76C2A319CA200A6370F /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C9C76B2A319CA200A6370F /* MeetingView.swift */; };
-		99C9C76E2A319CA400A6370F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C9C76D2A319CA400A6370F /* Assets.xcassets */; };
-		99C9C7712A319CA400A6370F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C9C7702A319CA400A6370F /* Preview Assets.xcassets */; };
-		FF61ACF52A31A893006AE167 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF61ACF42A31A893006AE167 /* Theme.swift */; };
-		FF61ACF72A31AA08006AE167 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF61ACF62A31AA08006AE167 /* DailyScrum.swift */; };
-		FF61ACFA2A31ABAD006AE167 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF61ACF92A31ABAD006AE167 /* CardView.swift */; };
-		FF61ACFC2A31B047006AE167 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF61ACFB2A31B047006AE167 /* TrailingIconLabelStyle.swift */; };
+		3D75F76E2A402D03000A0AAE /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75F76D2A402D03000A0AAE /* ScrumdingerApp.swift */; };
+		3D75F7702A402D03000A0AAE /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75F76F2A402D03000A0AAE /* MeetingView.swift */; };
+		3D75F7722A402D04000A0AAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D75F7712A402D04000A0AAE /* Assets.xcassets */; };
+		3D75F7752A402D04000A0AAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D75F7742A402D04000A0AAE /* Preview Assets.xcassets */; };
+		3D75F77D2A417645000A0AAE /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75F77C2A417645000A0AAE /* Theme.swift */; };
+		3D75F77F2A41787F000A0AAE /* DaliyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75F77E2A41787F000A0AAE /* DaliyScrum.swift */; };
+		3D75F7812A417971000A0AAE /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75F7802A417971000A0AAE /* CardView.swift */; };
+		3D75F7832A417D54000A0AAE /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75F7822A417D54000A0AAE /* TrailingIconLabelStyle.swift */; };
+		3D75F7852A42F2D3000A0AAE /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75F7842A42F2D3000A0AAE /* ScrumsView.swift */; };
+		3D75F7872A42F728000A0AAE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75F7862A42F728000A0AAE /* DetailView.swift */; };
+		3D75F7892A4308B5000A0AAE /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D75F7882A4308B5000A0AAE /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D145CF02A38699B00D06D85 /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
-		3D75F78A2A441636000A0AAE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		99C9C7662A319CA200A6370F /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		99C9C7692A319CA200A6370F /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
-		99C9C76B2A319CA200A6370F /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
-		99C9C76D2A319CA400A6370F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		99C9C7702A319CA400A6370F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FF61ACF42A31A893006AE167 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		FF61ACF62A31AA08006AE167 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
-		FF61ACF92A31ABAD006AE167 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
-		FF61ACFB2A31B047006AE167 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		3D75F76A2A402D03000A0AAE /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D75F76D2A402D03000A0AAE /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
+		3D75F76F2A402D03000A0AAE /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
+		3D75F7712A402D04000A0AAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D75F7742A402D04000A0AAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3D75F77C2A417645000A0AAE /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		3D75F77E2A41787F000A0AAE /* DaliyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaliyScrum.swift; sourceTree = "<group>"; };
+		3D75F7802A417971000A0AAE /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		3D75F7822A417D54000A0AAE /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		3D75F7842A42F2D3000A0AAE /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
+		3D75F7862A42F728000A0AAE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		3D75F7882A4308B5000A0AAE /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		99C9C7632A319CA200A6370F /* Frameworks */ = {
+		3D75F7672A402D03000A0AAE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -44,73 +46,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		99C9C75D2A319CA200A6370F = {
+		3D75F7612A402D03000A0AAE = {
 			isa = PBXGroup;
 			children = (
-				99C9C7682A319CA200A6370F /* Scrumdinger */,
-				99C9C7672A319CA200A6370F /* Products */,
+				3D75F76C2A402D03000A0AAE /* Scrumdinger */,
+				3D75F76B2A402D03000A0AAE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		99C9C7672A319CA200A6370F /* Products */ = {
+		3D75F76B2A402D03000A0AAE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				99C9C7662A319CA200A6370F /* Scrumdinger.app */,
+				3D75F76A2A402D03000A0AAE /* Scrumdinger.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		99C9C7682A319CA200A6370F /* Scrumdinger */ = {
+		3D75F76C2A402D03000A0AAE /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
-				99C9C7692A319CA200A6370F /* ScrumdingerApp.swift */,
-				FF61ACF82A31AB9E006AE167 /* Views */,
-				FF61ACF32A31A884006AE167 /* Models */,
-				99C9C76D2A319CA400A6370F /* Assets.xcassets */,
-				99C9C76F2A319CA400A6370F /* Preview Content */,
+				3D75F77B2A417623000A0AAE /* Models */,
+				3D75F76D2A402D03000A0AAE /* ScrumdingerApp.swift */,
+				3D75F76F2A402D03000A0AAE /* MeetingView.swift */,
+				3D75F7802A417971000A0AAE /* CardView.swift */,
+				3D75F7882A4308B5000A0AAE /* DetailEditView.swift */,
+				3D75F7842A42F2D3000A0AAE /* ScrumsView.swift */,
+				3D75F7822A417D54000A0AAE /* TrailingIconLabelStyle.swift */,
+				3D75F7862A42F728000A0AAE /* DetailView.swift */,
+				3D75F7712A402D04000A0AAE /* Assets.xcassets */,
+				3D75F7732A402D04000A0AAE /* Preview Content */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
 		};
-		99C9C76F2A319CA400A6370F /* Preview Content */ = {
+		3D75F7732A402D04000A0AAE /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				99C9C7702A319CA400A6370F /* Preview Assets.xcassets */,
+				3D75F7742A402D04000A0AAE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FF61ACF32A31A884006AE167 /* Models */ = {
+		3D75F77B2A417623000A0AAE /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FF61ACF42A31A893006AE167 /* Theme.swift */,
-				FF61ACF62A31AA08006AE167 /* DailyScrum.swift */,
+				3D75F77C2A417645000A0AAE /* Theme.swift */,
+				3D75F77E2A41787F000A0AAE /* DaliyScrum.swift */,
 			);
 			path = Models;
-			sourceTree = "<group>";
-		};
-		FF61ACF82A31AB9E006AE167 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				99C9C76B2A319CA200A6370F /* MeetingView.swift */,
-				FF61ACF92A31ABAD006AE167 /* CardView.swift */,
-				FF61ACFB2A31B047006AE167 /* TrailingIconLabelStyle.swift */,
-				2D145CF02A38699B00D06D85 /* ScrumsView.swift */,
-				3D75F78A2A441636000A0AAE /* DetailView.swift */,
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		99C9C7652A319CA200A6370F /* Scrumdinger */ = {
+		3D75F7692A402D03000A0AAE /* Scrumdinger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99C9C7742A319CA400A6370F /* Build configuration list for PBXNativeTarget "Scrumdinger" */;
+			buildConfigurationList = 3D75F7782A402D04000A0AAE /* Build configuration list for PBXNativeTarget "Scrumdinger" */;
 			buildPhases = (
-				99C9C7622A319CA200A6370F /* Sources */,
-				99C9C7632A319CA200A6370F /* Frameworks */,
-				99C9C7642A319CA200A6370F /* Resources */,
+				3D75F7662A402D03000A0AAE /* Sources */,
+				3D75F7672A402D03000A0AAE /* Frameworks */,
+				3D75F7682A402D03000A0AAE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -118,25 +113,25 @@
 			);
 			name = Scrumdinger;
 			productName = Scrumdinger;
-			productReference = 99C9C7662A319CA200A6370F /* Scrumdinger.app */;
+			productReference = 3D75F76A2A402D03000A0AAE /* Scrumdinger.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		99C9C75E2A319CA200A6370F /* Project object */ = {
+		3D75F7622A402D03000A0AAE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					99C9C7652A319CA200A6370F = {
-						CreatedOnToolsVersion = 14.2;
+					3D75F7692A402D03000A0AAE = {
+						CreatedOnToolsVersion = 14.3;
 					};
 				};
 			};
-			buildConfigurationList = 99C9C7612A319CA200A6370F /* Build configuration list for PBXProject "Scrumdinger" */;
+			buildConfigurationList = 3D75F7652A402D03000A0AAE /* Build configuration list for PBXProject "Scrumdinger" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -144,48 +139,49 @@
 				en,
 				Base,
 			);
-			mainGroup = 99C9C75D2A319CA200A6370F;
-			productRefGroup = 99C9C7672A319CA200A6370F /* Products */;
+			mainGroup = 3D75F7612A402D03000A0AAE;
+			productRefGroup = 3D75F76B2A402D03000A0AAE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				99C9C7652A319CA200A6370F /* Scrumdinger */,
+				3D75F7692A402D03000A0AAE /* Scrumdinger */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		99C9C7642A319CA200A6370F /* Resources */ = {
+		3D75F7682A402D03000A0AAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99C9C7712A319CA400A6370F /* Preview Assets.xcassets in Resources */,
-				99C9C76E2A319CA400A6370F /* Assets.xcassets in Resources */,
+				3D75F7752A402D04000A0AAE /* Preview Assets.xcassets in Resources */,
+				3D75F7722A402D04000A0AAE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		99C9C7622A319CA200A6370F /* Sources */ = {
+		3D75F7662A402D03000A0AAE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF61ACF72A31AA08006AE167 /* DailyScrum.swift in Sources */,
-				3D75F78B2A441636000A0AAE /* DetailView.swift in Sources */,
-				FF61ACFC2A31B047006AE167 /* TrailingIconLabelStyle.swift in Sources */,
-				FF61ACF52A31A893006AE167 /* Theme.swift in Sources */,
-				2D145CF12A38699B00D06D85 /* ScrumsView.swift in Sources */,
-				99C9C76C2A319CA200A6370F /* MeetingView.swift in Sources */,
-				99C9C76A2A319CA200A6370F /* ScrumdingerApp.swift in Sources */,
-				FF61ACFA2A31ABAD006AE167 /* CardView.swift in Sources */,
+				3D75F77F2A41787F000A0AAE /* DaliyScrum.swift in Sources */,
+				3D75F7872A42F728000A0AAE /* DetailView.swift in Sources */,
+				3D75F7892A4308B5000A0AAE /* DetailEditView.swift in Sources */,
+				3D75F7832A417D54000A0AAE /* TrailingIconLabelStyle.swift in Sources */,
+				3D75F77D2A417645000A0AAE /* Theme.swift in Sources */,
+				3D75F7852A42F2D3000A0AAE /* ScrumsView.swift in Sources */,
+				3D75F7702A402D03000A0AAE /* MeetingView.swift in Sources */,
+				3D75F76E2A402D03000A0AAE /* ScrumdingerApp.swift in Sources */,
+				3D75F7812A417971000A0AAE /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		99C9C7722A319CA400A6370F /* Debug */ = {
+		3D75F7762A402D04000A0AAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +231,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -245,7 +241,7 @@
 			};
 			name = Debug;
 		};
-		99C9C7732A319CA400A6370F /* Release */ = {
+		3D75F7772A402D04000A0AAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -299,7 +295,7 @@
 			};
 			name = Release;
 		};
-		99C9C7752A319CA400A6370F /* Debug */ = {
+		3D75F7792A402D04000A0AAE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -307,6 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				DEVELOPMENT_TEAM = G7X65ZSJ3J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -319,7 +316,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Scrumdinger;
+				PRODUCT_BUNDLE_IDENTIFIER = seunggyun.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -327,7 +324,7 @@
 			};
 			name = Debug;
 		};
-		99C9C7762A319CA400A6370F /* Release */ = {
+		3D75F77A2A402D04000A0AAE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -335,6 +332,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
+				DEVELOPMENT_TEAM = G7X65ZSJ3J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -347,7 +345,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Scrumdinger;
+				PRODUCT_BUNDLE_IDENTIFIER = seunggyun.Scrumdinger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -358,25 +356,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		99C9C7612A319CA200A6370F /* Build configuration list for PBXProject "Scrumdinger" */ = {
+		3D75F7652A402D03000A0AAE /* Build configuration list for PBXProject "Scrumdinger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99C9C7722A319CA400A6370F /* Debug */,
-				99C9C7732A319CA400A6370F /* Release */,
+				3D75F7762A402D04000A0AAE /* Debug */,
+				3D75F7772A402D04000A0AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		99C9C7742A319CA400A6370F /* Build configuration list for PBXNativeTarget "Scrumdinger" */ = {
+		3D75F7782A402D04000A0AAE /* Build configuration list for PBXNativeTarget "Scrumdinger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				99C9C7752A319CA400A6370F /* Debug */,
-				99C9C7762A319CA400A6370F /* Release */,
+				3D75F7792A402D04000A0AAE /* Debug */,
+				3D75F77A2A402D04000A0AAE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 99C9C75E2A319CA200A6370F /* Project object */;
+	rootObject = 3D75F7622A402D03000A0AAE /* Project object */;
 }
