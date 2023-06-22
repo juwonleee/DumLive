@@ -10,11 +10,18 @@ import Foundation
 struct DailyScrum: Identifiable {
     
     let id: UUID //hashable protocol 채택
-    
-    let title: String
-    let attendees: [Attendee]
-    let lengthInMinutes: Int
-    let theme: Theme
+    var title: String
+    var attendees: [Attendee]
+    var lengthInMinutes: Int
+    var theme: Theme
+    var lengthInMinutesAsDouble: Double {
+        get {
+            Double(lengthInMinutes)
+        }
+        set {
+            lengthInMinutes = Int(newValue)
+        }
+    }
     
     //id: UUID = UUID()를 넣기 위해
 
@@ -46,4 +53,7 @@ extension DailyScrum {
         DailyScrum(title: "Web Dev", attendees: ["Chella", "Chris", "Christina", "Eden", "Karla", "Lindsey", "Aga", "Chad", "Jenn", "Sarah"], lengthInMinutes: 5, theme: .red)
     ]
     
+    static var emptyScrum: DailyScrum {
+        DailyScrum(title: "", attendees: [], lengthInMinutes: 5, theme: .blue)
+    }
 }
