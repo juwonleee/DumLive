@@ -2,30 +2,28 @@
 //  ScrumsView.swift
 //  Scrumdinger
 //
-//  Created by jisukwon on 2023/06/13.
+//  Created by 정승균 on 2023/06/21.
 //
 
 import SwiftUI
 
 struct ScrumsView: View {
-    
-    let scrums : [DailyScrum]
-    //바디 안에 넣게 되면 바디 스코프 안에서만 쓸 수 있다.
+    let scrums: [DailyScrum]
     
     var body: some View {
         NavigationStack {
             List(scrums) { scrum in
                 NavigationLink(destination: DetailView(scrum: scrum)) {
-                    CardView(dailyScrum: scrum)
+                    CardView(scrum: scrum)
                 }
                 .listRowBackground(scrum.theme.mainColor)
             }
             .navigationTitle("Daily Scrums")
             .toolbar {
-                Button(action: { }) {
+                Button(action: {}) {
                     Image(systemName: "plus")
                 }
-                .accessibilityLabel("New scrum")
+                .accessibilityLabel("New Scrum")
             }
         }
     }
