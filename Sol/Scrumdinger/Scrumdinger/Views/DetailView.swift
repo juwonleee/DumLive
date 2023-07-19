@@ -9,8 +9,9 @@ import SwiftUI
 
 struct DetailView: View {
     @Binding var scrum: DailyScrum
-    @State private var isPresentingEditView: Bool = false
+    
     @State private var editingScrum = DailyScrum.emptyScrum
+    @State private var isPresentingEditView: Bool = false
     
     var body: some View {
         List {
@@ -38,17 +39,6 @@ struct DetailView: View {
             Section("Attendees") {
                 ForEach(scrum.attendees) { attendee in
                     Label(attendee.name, systemImage: "person")
-                }
-            }
-            Section("History") {
-                if scrum.history.isEmpty {
-                    Label("No meetings yet", systemImage: "calendar.badge.exclamationmark")
-                }
-                ForEach(scrum.history) { history in
-                    HStack {
-                        Image(systemName: "calendar")
-                        Text(history.date, style: .date)
-                    }
                 }
             }
         }

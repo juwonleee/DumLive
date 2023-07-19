@@ -6,34 +6,53 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct MeetingView: View {
     @Binding var scrum: DailyScrum
+    @StateObject var scrumTimer: ScrumTimer = ScrumTimer()
     
+    var player: AVPlayer {
+        AVPlayer.sharedDingPlayer
+    }
+
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 16)
                 .fill(scrum.theme.mainColor)
             VStack {
-                MeetingHeaderView(secondsElapsed: 100, secondsRemaining: 200, theme: scrum.theme)
+                MeetingHeaderView(secondsElapsed: scrumTimer.secondsElapsed, secondsRemaining: scrumTimer.secondsRemaining, theme: scrum.theme)
                 
                 Circle()
                     .strokeBorder(lineWidth: 24)
                     
-                HStack{
-                    Text("Speaker 1 of 3")
-                    Spacer()
-                    Button(action: {}){
-                        Image(systemName: "forward.fill")
-                    }
-                    .accessibilityLabel("Next Speaker")
-                }
-                
+                MeetingFooterView(speakers: scrumTimer.speakers, skipAction: scrumTimer.skipSpeaker)
             }
         }
         .padding()
         .foregroundColor(scrum.theme.accentColor)
+        .onAppear {
+            startScrum()
+        }
+        .onDisappear {
+            endScrum()
+        }
         .navigationBarTitleDisplayMode(.inline)
+    }
+    
+    private func startScrum() {
+        scrumTimer.reset(lengthInMinutes: scrum.lengthInMinutes, attendees: scrum.attendees)
+        scrumTimer.speakerChangedAction = {
+            player.seek(to: .zero)
+            player.play()
+        }
+        scrumTimer.startScrum()
+    }
+    
+    private func endScrum() {
+        scrumTimer.stopScrum()
+        let newHistory = History(attendees: scrum.attendees)
+        scrum.history.insert(newHistory, at: 0)
     }
 }
 

@@ -23,7 +23,6 @@ struct DailyScrum: Identifiable {
         }
     }
     
-    var history: [History] = []
     //id: UUID = UUID()를 넣기 위해
 
     init(id: UUID = UUID(), title: String, attendees: [String], lengthInMinutes: Int, theme: Theme) {
